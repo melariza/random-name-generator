@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Random name generator</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <h2>Random Name Generator</h2>
+<input type="text" id="numNames">
+<input type="button" id="generator" value="Generate">
+<input type="button" id="edit" value="Edit Lists">
+<table>
+  <tbody id="output">
+  </tbody>
+  <tbody id="listEditor">
+    <tr>
+      <th>Generator Source Lists</th>
+    </tr>
+    <tr>
+      <td id="buttonPanel">
+        <input type="button" class="templates" value="Templates">
+        <input type="button" class="adj" value="Adjectives">
+        <input type="button" class="adj2" value="Second Adjectives">
+        <input type="button" class="adj3" value="Third Adjectives">
+        <br/>
+        <input type="button" class="noun" value="Sing. Nouns">
+        <input type="button" class="nouns" value="Pl. Nouns">
+        <input type="button" class="noun2" value="Second Nouns">
+        <input type="button" class="suf" value="Suffixes">
+        <input type="button" class="gib" value="Other">
+      </td>
+    </tr>
+    <tr id="descRow">
+      <td class="adj">
+        <p>Adjectives are adjectives. This list is exactly what you'd expect.</p>
+      </td>
+      <td class="adj2">
+        <p>Option for second adjective.</p>
+      </td>
+      <td class="adj3">
+        <p>option for third adjective.</p>
+      </td>
+      <td class="noun">
+        <p>In this list are singular nouns.</p>
+      </td>
+      <td class="nouns">
+        <p>In this list are plural nouns.</p>
+      </td>
+      <td class="noun2">
+        <p>Second noun</p>
+      </td>
+      <td class="suf">
+        <p>This is a list for suffixes, words that only fit at the end of a name.</p>
+      </td>
+      <td class="gib">
+        <p>This list contains gibberish names, foreign language words (mostly Latin), and other things that wouldn't make much sense in a normal template, but can still work well with each other.</p>
+      </td>
+      <td class="templates">
+      <p>Templates may be any text you wish. Substitutions occur as follows:</p>
+          <ul>
+            <li><span class="sub">adj</span>: Adjective</li>
+            <li><span class="sub">adj2</span>: Second adjective</li>
+            <li><span class="sub">adj3</span>: Third adjective</li>
+            <li><span class="sub">noun</span>: Singular noun</li>
+            <li><span class="sub">nouns</span>: Plural noun</li>
+            <li><span class="sub">noun2</span>: Second noun</li>
+            <li><span class="sub">suf</span>: Suffix</li>
+            <li><span class="sub">gib</span>: Other</li>
+          </ul>
+          <p>Click one of the buttons above to view a description of each word type or to edit the list of words used.
+        </p>
+      </td>
+    </tr>
+    <tr id="textLists">
+      <td class="adj">
+        <textarea></textarea>
+      </td>
+      <td class="adj2">
+        <textarea></textarea>
+      </td>
+      <td class="adj3">
+        <textarea></textarea>
+      </td>
+      <td class="noun">
+        <textarea></textarea>
+      </td>
+      <td class="nouns">
+        <textarea></textarea>
+      </td>
+      <td class="noun2">
+        <textarea></textarea>
+      </td>
+      <td class="suf">
+        <textarea></textarea>
+      </td>
+      <td class="gib">
+        <textarea></textarea>
+      </td>
+      <td class="templates">
+        <textarea></textarea>
+      </td>
+    </tr>
+  </tbody>
+</table>
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

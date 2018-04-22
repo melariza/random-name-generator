@@ -1,0 +1,92 @@
+#descRow td:not(:last-child),
+#textLists td:not(:last-child) {
+  display: none;
+}
+
+textarea {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#numNames {
+  border: #999999 1px solid;
+  padding: 1px;
+  font: 10px Verdana, arial, sans-serif;
+  width: 90px;
+  background: #eceef8;
+  color: #505050;
+  text-align: center;
+}
+
+#numNames:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: #dadff4;
+}
+
+#buttonPanel {
+  padding: 7px;
+  text-align: center;
+}
+
+.sub {
+  font-family: monospace;
+  font-size: 1.1em;
+}
+
+body {
+  background-color: white;
+  font: 11px Verdana, arial, sans-serif;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid navy;
+  min-width: 20em;
+}
+
+input[type=button] {
+  cursor: pointer;
+  border: groove 1px #000;
+  font-weight: bold;
+  color: white;
+  padding: 3px 4px;
+  background-color: navy;
+  margin-bottom: 7px;
+}
+
+th {
+  background-color: navy;
+  color: white;
+  padding: 4px;
+}
+
+tr:nth-child(even) {
+  background-color: #E6E6E6;
+}
+
+#listEditor tr {
+  border: 1px solid navy;
+}
+
+td {
+  text-align: left;
+  padding: 2px 3px;
+}
+
+div {
+  margin-top: 1em;
+}
+
+ul {
+  margin-top: 1ex;
+  padding-left: 1em;
+  list-style-position: inside;
+}
+p {
+  max-width: 32em;
+}
